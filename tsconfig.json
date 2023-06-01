@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true,
 		"baseUrl": "src"
   },
-  "include": ["src"],
+  "include": ["src", "src/jest.config.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
