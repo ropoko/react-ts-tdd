@@ -67,3 +67,37 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.login-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
